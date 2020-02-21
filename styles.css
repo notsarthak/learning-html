@@ -1,0 +1,26 @@
+h1 {
+    color:white;
+    background-color:blue;
+    font-family:arial;
+    font-size:20px;
+    text-align:center;
+}
+p {
+    color:slategrey;
+    column-count:3;
+    column-gap:30px;
+    letter-spacing:3px;
+    line-height:20px;
+    text-align:right;
+}
+ul {
+    /*border-width:40px;
+    border-style:solid;
+    border-color:crimson;*/
+    /*border:4px dashed greenyellow;*/
+    border-top:4px #9ad620 dotted ;
+}
+li {
+    list-style-type:square;
+    text-shadow:2px 2px lightgray;
+}
