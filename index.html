@@ -4,29 +4,33 @@
         <title>Learning html</title>
     </head>
     <body>
-        <div>
-            <p>Hello </p>
-            <strong>ninjas</strong>
-            <em>Yo</em>
-            <small>Hello</small>
-            <a href="https://www.google.com">A search engine</a>
-            <a href="about.html">About page</a>
-        </div>
-        <div>
-            <h1>Heading 1</h1>
-            <h2>Heading 2</h2>
-            <h3>Heading 3</h3>
-            <h4>Heading 4</h4>
-        </div>
-        <div>
-            <ul>
-                <li>yoshi</li>
-                <li>luigi</li>
-            </ul>
-        </div>
-        <span>this is in<br> span</span>
-        <hr>
-        <img src="download.jfif" alt="Dog kid">
-        <blockquote cite="http://www.oscarwildesite.com">all of us are in the gutter but some of us like that</blockquote>
+        <form>
+            <label for="username">Enter username</label><br>
+            <input type="text" id="username" name="username" placeholder="username"><br>
+            <label for="password">Password</label><br>
+            <input type="password" id="password" placeholder="password"><br>
+            <p>Select your gender</p>
+            <input type="radio" name="gender" value="Male" id="option-1">
+            <label for="option-1">Male</label><br>
+            <input type="radio" name="gender" value="Female" id="option-2">
+            <label for="option-2">Female</label><br>
+            <input type="radio" name="gender" value="other" id="option-3">
+            <label for="option-3">Other</label><br>
+            <br>
+            <label for="question">Select your security question</label>
+                <select id="question" name="question">
+                    <option value="q1">What is your best security question?</option>
+                    <option value="q2">What vegetable would you want to be?</option>
+                    <option value="q3">What is the color of the sock you like the most?</option>
+                </select>
+            <br>
+            <label for="Answer">Your answer</label>
+            <input type="text" id="Answer" name="answer" placeholder="answer"> <br>   
+            <label for="bio">Your bio</label><br>
+            <textarea cols="30" rows="10" name="bio" id="bio" placeholder="about you..."></textarea >
+            </label>
+            <br>
+            <input type="submit" value="Submit Form">
+        </form>
     </body>
 </html> 
