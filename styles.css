@@ -1,26 +1,54 @@
-h1 {
+/*div{
+    border:2px crimson solid;
+    margin:20px;
+    padding:20px
+}
+span{
+    margin:20px;
+    padding:20px;
+}*/
+/*p.yolo{
+    color:crimson;
+}
+p.yodo{
+    color:green;
+}
+p.yolo.feedback{
+    border:#54cc54 1px dashed;
+    color:#93e634
+}
+#goodg{
+    color:skyblue
+}*/
+
+/*div .yolo{
+    color:red;
+}
+a[href*="google"]{
+    background-color:#239723;
     color:white;
-    background-color:blue;
-    font-family:arial;
-    font-size:20px;
-    text-align:center;
+    font-weight:bold;
+    text-decoration:none;
+    text-transform:uppercase;
 }
-p {
-    color:slategrey;
-    column-count:3;
-    column-gap:30px;
-    letter-spacing:3px;
-    line-height:20px;
-    text-align:right;
+a[href$=".com"]{
+    color:white;
+    background-color:red;
+    border:2px solid purple
+}*/
+div{
+    color:lightcoral;
+    padding:40px;
+    margin:40px;
+    border:solid black 2px;
+    font-weight:bold;
+    letter-spacing: 2px; 
 }
-ul {
-    /*border-width:40px;
-    border-style:solid;
-    border-color:crimson;*/
-    /*border:4px dashed greenyellow;*/
-    border-top:4px #9ad620 dotted ;
+p{
+    margin:inherit;
+    border:inherit;
+    color:crimson;
 }
-li {
-    list-style-type:square;
-    text-shadow:2px 2px lightgray;
+p{
+    color:orange; 
 }
