@@ -2,21 +2,51 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
-        <title>CSS BASICS</title>
+        <title>MarioClub</title>
     </head>
     <body>
-        <h2>Inline elements</h2>
-        <span>span</span>
-        <a href="">anchor</a>
-        <strong>strong</strong>
-        <em>em</em>    
-
-        <div>division</div>
-        <p>Paragraph</p>
-        <h3>heading 3</h3>
-        <ul>
-            <li>car</li>
-            <li>bike</li>
-        </ul>
+        <header><h1>MarioClub</h1></header>
+        <section class="banner">
+            <img src="img/banner.png" alt="welcome to MarioClub banner">
+            <div class="welcome">
+                <h2>Welcome to <br><span>MarioClub</span></h2>
+            </div>
+        </section>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="/join.html" class="join">Join the club</a></li>
+                <li><a href="/news.html">Latest news</a></li>
+                <li><a href="/games.html">New games</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <article>
+                <h2>It's a me Mario!</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet architecto amet culpa ex, deserunt voluptatibus, 
+                    nostrum impedit asperiores, velit nemo minus est facere fugiat similique molestias ipsa earum natus ullam! Lorem 
+                    ipsum dolor sit amet consectetur adipisicing elit. Dignissimos neque assumenda similique voluptate placeat quas 
+                    modi asperiores, consequatur accusantium officiis fugit maxime molestiae consectetur laboriosam laudantium rerum 
+                    eius quaerat eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos possimus nesciunt odit dicta maiores
+                    debitis cum facere qui, accusamus reiciendis enim at officia. Ipsam corporis dignissimos consectetur dolor dolorem
+                    deleniti.</p>
+            </article>
+            <ul class="images">
+                <li><img src="img/thumb-1.png"></li>
+                <li><img src="img/thumb-2.png"></li>
+            </ul>
+        </main>
+        <section>
+            <h2>Join Today!</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, mollitia, corporis qui voluptates inventore neque
+                rem laboriosam, et eos deleniti deserunt ut labore sit ea plac0eat in dolor nulla illo!</p>
+                <form>
+                    <input type="email" name="email" required placeholder="Type your email and hit enter">
+                </form>
+        </section>
+        <footer>
+            <p class="copyright">Copyright 2019 MarioClub
+            </p>
+        </footer>
     </body>
-</html> 
+</html>
